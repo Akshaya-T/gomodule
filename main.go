@@ -1,5 +1,13 @@
 package gomodule
 
-func LogInfo(message string){
-	log.
+import (
+	"log"
+)
+
+func LogInfo(message string) {
+	log.Printf("INFO")
+}
+
+func LogError(message string) {
+	log.Printf("ERROR")
 }
